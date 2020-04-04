@@ -28,12 +28,12 @@ end
 
 def monopoly_with_third_tier
   :rent_in_dollars ={
-    
+  :one_piece_owned =>25
+  :two_piece_owned =>50
+  :three_piece_owned =>100
+  :four_piece_owned =>200
   }
-  rent_in_dollars[:one_piece_owned]=25
-  rent_in_dollars[:two_piece_owned]=50
-  rent_in_dollars[:three_piece_owned]=100
-  rent_in_dollars[:four_piece_owned]=200
+ 
   name[:reading_railroad]={}
   name[:pennsylvania_railroad]={}
   name[:b_and_o_railroad]={}
