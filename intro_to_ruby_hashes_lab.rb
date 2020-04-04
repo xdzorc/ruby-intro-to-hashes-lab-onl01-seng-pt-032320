@@ -28,16 +28,19 @@ end
 
 def monopoly_with_third_tier
   :rent_in_dollars ={
-  :one_piece_owned =>25
-  :two_piece_owned =>50
-  :three_piece_owned =>100
-  :four_piece_owned =>200
+    :one_piece_owned =>25
+    :two_piece_owned =>50
+    :three_piece_owned =>100
+    :four_piece_owned =>200
+  },
+  :names ={
+    :reading_railroad =>{}
+    :pennsylvania_railroad =>{}
+    :b_and_o_railroad =>{}
+    :shortline =>{}
   }
  
-  name[:reading_railroad]={}
-  name[:pennsylvania_railroad]={}
-  name[:b_and_o_railroad]={}
-  name[:shortline]={}
+  
 	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
 
 end
